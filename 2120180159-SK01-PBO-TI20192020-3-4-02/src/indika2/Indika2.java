@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package indika2;
+
+/**
+ *
+ * @author Dewi Galuh
+ */
+public class Indika2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    int a=10;
+        for(int b=1;b<=a;b++){
+            for(int c=9;c>=b;c--){
+                System.out.print(" ");
+            }
+                for(int d=1;d<=b;d++){
+            System.out.print("1");
+        }
+            System.out.println();
+        }
+    }
+    
+}
